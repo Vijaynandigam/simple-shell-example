@@ -1,0 +1,138 @@
+Devops is a process of  improving the aplication delivary by ensuring there is a proper automation with a proper code quality and by ensuring continuous monitoring and continuous testing taking in place.
+
+Kubernetes is the key player in the devops market
+
+Kubernetes is the future of Devops.
+
+People started moving to micro services from last 6 to 7 years
+
+Container concept knowledge is need to start kubernets
+
+
+Introduction to the world of the Containers:
+
+1. If Virtuvalization or Hypervisior concepet of VM's is going well in the market why we need to move to the Container??
+
+ANS: Contrainers will effectively use VM's to save resources.
+
+The problem with physical servers effective use of resources is sloved by Vm's and some problems with efective use of vm's are solved by Container still there are some drawbacks for Containers in terms of logical seperation where containers don't have proper operating systems and Vm's does have it.
+
+
+
+Architecture of Containers.
+
+Containers are very light and use less resources because??
+
+They do not have full operating system( jusy uses base image) and uses resorces from host OS platform.
+
+Container is a package which is a combination of your application, appllication library's and system dependendies.
+
+ANy other shared libary's are used from host operationg systems that is the reason container are very light.
+
+
+First To write a...DOCKERFILE.......ececute to create.........> IMAGE....ececute this image and create a.......>>CONTAINER........DOCKER ENGINE<<........... COMMANDS.
+
+Docker mainly depended on DOcker engine which is the single point of failure if for any reason Docker engine failed all the containers will go down. To avoid this SPOF, generally  Docker files creates a lot of layers and agin this layers takes lot of sapce to avoid this proplem we use the concept of Builda.
+
+Builda ---> reduce the layers space of DOcker.
+
+
+SHELL SCRIPTING:
+----------------
+
+Shell s an interface between user and OS. What ever commands we typing in KB it will give those to OS and execute.
+
+Bash shell is a default shell in advanced linux servers
+
+KSH is the default sell in AIX which is OS provided by IBM.
+
+Shells file in etc directory
+
+If we want to see conteent filee we can use cat/etx/shell.
+
+How to know which shell we are using command .....> echo $SHELL or echo $0 or ps -p $$
+
+Shell scriting is a simple file which containes series of commands. 
+
+Automate regular jobs.
+
+
+# --Single line command in shell script comments.
+
+<<String
+
+
+   String--------------------- For double line comments.
+
+Variables:
+
+variables are Nothing but a memory location where we can save the data.
+
+Variables are two types. 1) System defined Variables.
+                             |  
+                     Env command or printenv     
+
+2) User defined variables.
+
+
+COMMAND LINE ARGUMENTS:
+----------------------
+
+During shell script execution, values passing through command prompt is called as command line arguments.
+
+
+
+
+
+
+
+
+                   
+                      
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
